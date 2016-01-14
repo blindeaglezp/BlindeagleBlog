@@ -1,0 +1,50 @@
+/*
+ * 常用网站展示页面CSS样式
+ * author:blindeagle
+ * date:2015.12.03
+ * version:1.0
+ */
+
+/* start norWebCon */
+.norWebCon{width:1200px;height:500px;border-left:1px solid #CCC;border-right:1px solid #CCC;margin:0 auto;
+    background:#F2F2F2;}
+.norWebCon .norWebCon_left{width:220px;height:100%;font-size:16px;text-align:center;border-right:1px solid #CCC;
+    float:left;}
+.norWebCon .norWebCon_left ul li{width:220px;height:40px;border-bottom:1px solid #CCC;line-height:40px;
+    cursor:pointer;}
+.norWebCon .norWebCon_left ul li:hover{background:#5CACEE;color:#FFF;}
+.norWebCon .norWebCon_right{width:877px;height:400px;float:left;padding:50px;}
+.norWebCon .norWebCon_right ul li{float:left;margin:10px 20px;}
+.norWebCon .norWebCon_right ul li a{color:blue;}
+.norWebCon .norWebCon_right ul li a:hover{text-decoration:underline;}
+/* norWebCon end */
+
+/* start norWebMana */
+.norWebMana{width:50px;height:200px;position:fixed;right:100px;bottom:0;}
+.norWebMana ul li{width:40px;height:40px;border-radius:50%;font-size:40px;font-weight:bold;color:#FFF;
+    text-align:center;line-height:40px;margin-top:30px;cursor:pointer;}
+/* norWebMana end */
+
+/* start pop */
+#gray{width:100%;height:100%;background:rgba(0,0,0,0.5);position:absolute;top:0px;display:none;}
+#addNorWeb{width:400px;height:225px;background:#FFF;position:absolute;left:400px;top:150px;display:none;}
+#addNorWeb .title{width:400px;height:45px;background:#FF9933;color:#FFF;font-size:18px;font-family:"微软雅黑";line-height:45px;
+    text-indent:35px;}
+#addNorWeb .title:hover{cursor:pointer;}
+#addNorWeb .title a{color:#DDD;font-size:24px;text-decoration:none;float:right;margin-right:10px;}
+#addNorWeb .title a:hover{color:#FFF;}
+#addNorWeb .info{width:315px;height:190px;margin:15px auto 0px;}
+#addNorWeb .info p{font-size:16px;font-family:"微软雅黑";margin-bottom:15px;}
+#addNorWeb .info p input.txt{width:260px;height:35px;border:1px solid #DDD;border-radius:3px;}
+#addNorWeb .info p input.btn_addNorWeb{width:263px;height:40px;border:0px;margin-left:32px;font-size:16px;}
+#deleteNorWeb{width:400px;height:180px;background:#FFF;position:absolute;left:400px;top:150px;display:none;}
+#deleteNorWeb .title{width:400px;height:45px;background:#FF9933;color:#FFF;font-size:18px;font-family:"微软雅黑";line-height:45px;
+    text-indent:35px;}
+#deleteNorWeb .title:hover{cursor:pointer;}
+#deleteNorWeb .title a{color:#DDD;font-size:24px;text-decoration:none;float:right;margin-right:10px;}
+#deleteNorWeb .title a:hover{color:#FFF;}
+#deleteNorWeb .info{width:315px;height:190px;margin:15px auto 0px;}
+#deleteNorWeb .info p{font-size:16px;font-family:"微软雅黑";margin-bottom:15px;}
+#deleteNorWeb .info p input.txt{width:260px;height:35px;border:1px solid #DDD;border-radius:3px;}
+#deleteNorWeb .info p input.btn_deleteNorWeb{width:263px;height:40px;border:0px;margin-left:32px;font-size:16px;}
+/* pop end */

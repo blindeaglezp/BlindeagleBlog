@@ -1,0 +1,38 @@
+/*
+ * 公共页面CSS样式
+ * author:blindeagle
+ * date:2015.12.03
+ * version:1.0
+ */
+
+*{margin:0;padding:0;}
+a{text-decoration:none;color:#111;}
+li{list-style:none;}
+body{background:#FFF;font-size:16px;font-family:"微软雅黑";color:#666;}
+.container{width:100%;}
+
+/* start top */
+.top{width:100%;height:80px;border-bottom:2px solid #293240;background:#293240;}
+.top img{float:left;margin-left:100px;}
+.top ul{float:left;margin-left:200px;}
+.top ul li{float:left;width:100px;height:80px;text-align:center;line-height:80px;}
+.top ul li a{color:#FFF;font-size:16px;width:100px;height:80px;display:block;}
+.top ul li a:hover{border-bottom:2px solid #F5C51E;color:#F5C51E;}
+/* top end */
+
+/* start bottom */
+.bottom{width:100%;height:80px;background:#293240;padding:45px 0;}
+.bottom .content{width:1180px;height:100px;margin:0 auto;}
+.bottom .content .info{width:450px;height:80px;float:left;}
+.bottom .content .info a img{float:left;}
+.bottom .content .info .details{float:left;margin-left:20px;}
+.bottom .content .info .details h4{font-size:16px;font-weight:500;line-height:26px;color:#FFF;}
+.bottom .content .info .details p{color:#BBC6CF;font-size:12px;line-height:20px;}
+.bottom .content .list{width:620px;height:100px;float:right;}
+.bottom .content .list .con{float:left;}
+.bottom .content .list .con .menu{width:500px;height:30px;text-align:right;}
+.bottom .content .list .con .menu a{margin-left:20px;line-height:30px;text-decoration:none;color:#C5CCD3;}
+.bottom .content .list .con p{margin-left:70px;font-size:12px;color:#85919B;}
+.bottom .content .list .con p.author{text-align:right;margin:10px 20px 0 0;font-size:14px;}
+.bottom .content .list img{float:right;}
+/* bottom end */
